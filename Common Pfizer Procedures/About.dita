@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="About">
+  <title>About</title>
+
+  <conbody>
+    <p>I created the Common Pfizer Procedures DocBook to document common
+    practices I perform as a Quality Control Associate / Technical Writer 1 in
+    the Quality Control Microbiology Department at Pfizer in Andover, MA. In
+    addition, this DocBook serves to demonstrate my DITA/XML skills as a
+    writing sample. Proprietary information is undisclosed.</p>
+  </conbody>
+</concept>
