@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN"
+"generalTask.dtd">
+<task id="Effective_Date">
+  <title>How to Set an SOP Effective Date</title>
+
+  <taskbody>
+    <steps-informal><p>Important: Effective Dates must be set on a
+    Wednesday.</p><ol>
+        <li>Verify the SOP is approved in PDOCS. </li>
+
+        <li>Go to the Webviewer main page
+        (http://webviewer-prd.pfizer.com/pgm/webviewer7/avr/default.aspx).
+        </li>
+
+        <li>Click <b>PDOCS Workflow eCenter Request. </b></li>
+
+        <li>Click <b>Items. </b></li>
+
+        <li>Click the <b>New Item</b> drop-down, then <b>Effective or Obsolete
+        Date</b>. </li>
+
+        <li>Complete the request form and click <b>Save</b>. </li>
+      </ol></steps-informal>
+  </taskbody>
+</task>

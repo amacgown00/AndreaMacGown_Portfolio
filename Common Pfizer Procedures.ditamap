@@ -10,9 +10,10 @@
     </booklists>
   </frontmatter>
 
-  <chapter href="???">
-    <topicref href="???"/>
-  </chapter>
+  <chapter href="About.dita"/>
+
+  <chapter href="How%20to%20Set%20an%20Effective%20Date.dita"
+           navtitle="How to Set an Effective Date"/>
 
   <appendix href="???"/>
 
