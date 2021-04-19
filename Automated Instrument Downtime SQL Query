@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="Automated_Instrument_Downtime_SQL_Query">
+  <title>Automated Instrument Downtime SQL Query</title>
+
+  <conbody>
+    <p>This SQL Query draws from an Oracle Database containing Pfizer LWLIMS
+    data. </p>
+
+    <p>It calculates the average downtime (hours) of each instrument and
+    outputs in an Excel document where it can be refreshed. The calculations
+    are automated to a PivotTable and PivotChart.</p>
+
+    <ul>
+      <li>select instrument "Instrument",</li>
+
+      <li>event_type "Event Type", </li>
+
+      <li>log_entry "Log Entry", </li>
+
+      <li>entered_by " Entered By", </li>
+
+      <li>to_date(entered_on) "Entered On" </li>
+
+      <li>from labware_admin.w_instrument_log where (instrument like 'QC%' or
+      instrument like 'AD_QC%') </li>
+
+      <li>and (EVENT_TYPE = ('ON') or EVENT_TYPE = ('OFF')) </li>
+
+      <li>and TO_DATE(entered_on) &gt;= TO_DATE(CURRENT_DATE - 365) </li>
+
+      <li>order by entered_on desc </li>
+    </ul>
+  </conbody>
+</concept>
