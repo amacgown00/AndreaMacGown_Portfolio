@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN"
+"generalTask.dtd">
+<task id="Patient_Daily_Note_x_">
+  <title>Create a Patient Daily Note</title>
+
+  <taskbody>
+    <steps-informal><p>How to create a Patient Daily Note in WebPT.</p><ol>
+        <li>Click <b>Display Patients</b> under Patient Manager. <image
+        alt="center" href="pictures/1.png" placement="break"
+        width="900"/></li>
+
+        <li>Enter the name or info of the patient in the search bars. Click
+        <b>Search</b>.<image href="pictures/2.png" placement="break"
+        width="900"/></li>
+
+        <li>Click on the patient. <image href="pictures/3.png"
+        placement="break" width="900"/><note othertype="Note"
+        type="other"><p>This displays the patient record.<b> Add Daily Note
+        </b>is preselected in the Patient Record Actions drop-down. Click the
+        drop-down menu to display different options. <image
+        href="pictures/3.2.png" placement="break" width="900"/> <image
+        href="pictures/3.3.png" placement="break" width="900"/> <image
+        href="pictures/3.4.png" placement="break"
+        width="900"/></p></note></li>
+
+        <li>Click the arrow icon next to Patient Record Actions.<image
+        href="pictures/4.png" placement="break" width="900"/></li>
+
+        <li>Enter observations in the <b>Current Complaints / Gains</b> text
+        box in the Subjective tab. <image href="pictures/12.jpg"
+        placement="break" width="900"/></li>
+
+        <li>Click the <b>Objective</b> tab and enter observations in the
+        Objective Findings text box.<image href="pictures/6.png"
+        placement="break" width="900"/></li>
+
+        <li>Scroll down to Direct Timed Codes and enter the amount of time (in
+        minutes) that was spent on each type of treatment in the relevant text
+        boxes.<image href="pictures/7.png" placement="break"
+        width="900"/></li>
+
+        <li>Click the <b>Assessment</b> tab and enter observations in the
+        Assessment/Diagnosis text box.<image href="pictures/8.png"
+        placement="break" width="900"/></li>
+
+        <li>Click the <b>Plan</b> tab and enter instructions in the
+        Progressing Patient Next Visit text box. When finished, click <b>Save
+        As Draft</b>. <image href="pictures/9.png" placement="break"
+        width="900"/></li>
+      </ol></steps-informal>
+  </taskbody>
+</task>
